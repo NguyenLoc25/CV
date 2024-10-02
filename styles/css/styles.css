@@ -45,8 +45,7 @@ body{
 }
 
 
-
-.section_image{
+.section_image {
     width: 20vw;
     height: auto;
     max-width: 150px;
@@ -58,9 +57,14 @@ body{
     border-radius: 50%;
     margin-bottom: 20px;
     border: 5px solid #ccc;
+    transition: transform 0.5s ease; /* Hiệu ứng mượt khi hover */
 }
 
-.image_personal{
+.section_image:hover {
+    transform: scale(1.1); /* Phóng to khung ảnh */
+}
+
+.image_personal {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -153,9 +157,9 @@ body{
     padding-bottom: 27px;
 }
 
-.section_Heading{
+/* .section_Heading{
 
-}
+} */
 
 .section_family_name{
     font-size: 45px;
@@ -214,7 +218,7 @@ body{
     padding-bottom: 5px;
 }
 
-.Reference_item{
+/* .Reference_item{
     
     .Reference_heading{
         
@@ -232,4 +236,4 @@ body{
             
         }
     }
-}
+} */
